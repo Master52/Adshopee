@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- custom -->
+    <link rel="stylesheet" href="style.css">
+      <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+    <title>Ad Shope</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="header">
+        <div class="logo">
+          <img width="50%" src="./finallogo.JPG" />
+        </div>
+        <div class="menubar">
+          <a onclick="openNav()" href="#" class="btn bth-default">
+            <span class="fa fa-bars"style="color: darkgrey"/>
+          </a>
+        </div>
+      </div>
+      <div id="menu" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Login </a>
+        <a href="#">Clients</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+      </div>
+
+
+
+
+
+      <div class="searchbox">
+        <div class="input-group">
+          <input type="text" class=" border-primary form-control sbborder" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default"> </div>
+        <span  class="search-icon fas fa-search"></span>
+      </div>
+
+
+
+
+
+      <div class="category">
+        <div class="container">
+          <div class="row flex-items-xs-top">
+            <div class="col-xs">
+              <img src="./abc.jpg" style="border-radius: 50%;" width="80%"/>
+              <p>lkfjslkd</p>
+            </div>
+            <div class="col-xs">
+              <img src="./abc.jpg" style="border-radius: 50%;" width="80%"/>
+            </div>
+            <div class="col-xs">
+              <img src="./abc.jpg" style="border-radius: 50%;" width="80%"/>
+            </div>
+          </div>
+          <div class="row flex-items-xs-middle">
+            <div class="col-xs">
+              <img src="./abc.jpg" style="border-radius: 50%;" width="80%"/>
+            </div>
+            <div class="col-xs">
+              <img src="./abc.jpg" style="border-radius: 50%;" width="80%"/>
+            </div>
+            <div class="col-xs">
+              <img src="./abc.jpg" style="border-radius: 50%;" width="80%"/>
+            </div>
+          </div>
+          <div class="row flex-items-xs-bottom">
+            <div class="col-xs">
+              <img src="./abc.jpg" style="border-radius: 50%;" width="80%"/>
+            </div>
+            <div class="col-xs">
+              <img src="./abc.jpg" style="border-radius: 50%;" width="80%"/>
+            </div>
+            <div class="col-xs">
+              <img src="./abc.jpg" style="border-radius: 50%;" width="80%"/>
+            </div>
+          </div>
+          <div class="row flex-items-xs-bottom">
+            <div class="col-xs">
+              <img src="./abc.jpg" style="border-radius: 50%;" width="80%"/>
+            </div>
+            <div class="col-xs">
+              <img src="./abc.jpg" style="border-radius: 50%;" width="80%"/>
+            </div>
+            <div class="col-xs">
+              <img src="./abc.jpg" style="border-radius: 50%;" width="80%"/>
+            </div>
+          </div>
+        </div>
+        </div>
+
+        <div class="news">
+          <h1>
+            Top Ratlam News
+          </h1>
+          <div class="shadow p-3 mb-5 bg-white rounded card-group">
+            <div class="card">
+              <img class="card-img-top" style="padding: 10px;" src="./finallogo.JPG" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="shadow p-3 mb-5 bg-white rounded card-group">
+            <div class="card">
+              <img class="card-img-top" style="padding: 10px;" src="./finallogo.JPG" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script>
+        function openNav() {
+          document.getElementById("menu").style.width="250px";
+        }
+        function closeNav() {
+              document.getElementById("menu").style.width = "0";
+              }
+    </script>
+
+  </body>
+</html>
